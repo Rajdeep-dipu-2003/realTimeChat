@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 40px;
+    background-color: #252837;
+    color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: #1C1E2C;
+    height: calc(100vh - 63px);
+}
+#chatBox {
+    position: relative;
+    height: calc(100vh - 170px);
+    background-color: #1C1E2C;
+    border: 2px solid #1C1E2C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+    padding: 15px;
+}
+
+.left , .right{
+    
+    max-width: 1200px;
+    background-color: #6586FF;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    margin: 12px 0;
+    float: left;
+    clear: both;
+}
+
+.right{
+    margin: 12px 0;
+    float: right;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right h6 {
+    padding-bottom: 5px;
+}
+
+.left h6{
+    padding-bottom: 5px;
+}
+
+
+.reply{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+#message{
+   
+    left: 0;
+    background-color: #27293c;
+    border: 2px solid black;
+    height: 50px;
+    width: calc(100vw - 60px);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#sendBtn{
+    background-color: #6586FF;
+    border: 2px solid black;
+    height: 53.5px;
+    width: 60px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2e2e2e;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}

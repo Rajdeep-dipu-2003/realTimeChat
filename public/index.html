@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Chatting</h1>
+    </nav>
+    
+    <div class="container">
+        <div id="chatBox">
+            <!-- <div class="left">
+                <h6>Me</h6>            
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum cum veritati
+                </p>
+            </div>
+            
+            <div class="right">
+                <h6>Username</h6>
+                <p>
+                    Lorem ipsum dolor sit 
+                </p>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="reply"> 
+        <input type="text" id="message"  autocomplete="off" placeholder="Enter Message">
+        <button id="sendBtn">Send</button>
+    </div>
+
+   
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="client.js"></script>
+</body>
+
+</html>
+
+
